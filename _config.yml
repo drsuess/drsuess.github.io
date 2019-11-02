@@ -1,32 +1,31 @@
 # Site
-name: 'MySite'
-description: 'Coming Soon'
-logo: 'assets/images/logo.png'
+name: 'Dr. Suess'
+description: 'Many Thoughts, Few Voices'
+logo: 'assets/images/avatar1.jpg'
 favicon: 'assets/images/favicon.ico'
-host: 'https://drsuess.github.io'
+# host: '127.0.0.1'
 baseurl: ''
 disqus: ''
 email: ''
 mailchimp-list: ''
 
 include: ["_pages"]
-permalink: /:title/
+# permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
 authors:
-    me:
-      name:           
-      site:           
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi"
-      email:          
-      twitter:        
+    kyle:
+      name: kyle
+      site: https://kylesuess.com
+      avatar: /assets/images/avatar1.jpg
+      bio: "Lots of nebulous thoughts. Sometimes adventuring, other times being a potato. A fondness for animals. // INTP + Capricorn"
+      instagram: https://www.instagram.com/drsu3ss/
 
 # Defaults
 defaults:
@@ -36,21 +35,21 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: kyle
       avatar: /assets/images/avatar1.jpg
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
 
 # Paginate
-paginate: 10
+paginate: 8
 
 
 
